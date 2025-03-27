@@ -19,7 +19,6 @@ except Exception as e:
     exit()
 
 try:
-    # Use 'roll' instead of 'student_id'
     present_rolls = set(attendance_df['roll'])
     all_rolls = set(master_roll_df['roll'])
 
